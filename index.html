@@ -1,26 +1,36 @@
-<html>
+<!DOCTYPE html lang="pt">
     <head>
         <meta charset="UTF-8">
         <title>Ana Caroline Lisboa Silva | Desenvolvedora Web</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio Ana Caroline Lisboa Silva | Desenvolvedora Web">
         <link rel="icon" href="src/favicon.ico">
         <link href="src/css/output.css" rel="stylesheet">  
         <link href="src/css/style-ana.min.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-        <script src="src/js/actions.js"></script>   
+        <script src="src/js/actions.js"></script>  
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G9J2DS3T9H"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-G9J2DS3T9H');
+        </script> 
     </head>
     <body class="p-0 m-0 darkmode bg-[--main] text-[#eaeaea]" dark-mode="on"> 
         <div class="h-screen content-center items-center flex " id="first-block"> 
             <div class="w-full relative bg-top h-full flex justify-center items-center overflow-hidden bg-top-mobile">
                 <span class="hidden md:block absolute bottom-0 m-auto opacity-15 top-0 h-fit bg-l">
-                    <img src="src/imgs/bg.png" alt="Imagem de fundo" width="492" height="518">
+                    <img src="src/imgs/lazyload.png" data-src="src/imgs/bg.png" alt="Imagem de fundo" width="492" height="518" class="lazyload">
                 </span>
                 <div class="container max-w-7xl py-4 flex items-center content-center flex-wrap relative z-10">
                     <h1 class="w-full text-lg md:text-2xl text-center font-inconsolata font-light mb-1">Olá! Me chamo <span class="text-[#8e6ccb] font-bold">Ana Caroline</span> e sou <strong class="block font-poppins w-full text-center font-bold text-3xl md:text-5xl">Desenvolvedora Web</strong></h1>
                     <div class="w-full mt-2">
-                        <p class="w-full px-3 md:px-0 md:w-[650px] mx-auto text-center font-thin text-sm md:text-base tracking-wide">Iniciei minha carreira desenvolvendo sites institucionais e ao longo dos anos, expandi minha atuação para a área de e-commerces. Confira mais informações clicando nos botões abaixo: </p>
+                        <p class="w-full px-3 md:px-0 md:w-[650px] mx-auto text-center font-thin text-sm md:text-base tracking-wide">Atuo desenvolvendo sites institucionais e-commerces. Confira mais informações clicando nos botões abaixo: </p>
                     </div>
                     <ul class="w-full flex gap-3 md:gap-5 mt-8 justify-center"> 
                         <li class="py-2 px-3 md:px-4 bg-[--secondary] text-xs md:text-sm cursor-pointer rounded-full tracking-wide bg-shadow-hover menu-topo" data-bloco="block-cases">PROJETOS</li>
@@ -32,7 +42,7 @@
                     </button>
                 </div>
                 <span class="hidden md:block absolute bottom-0 m-auto opacity-15 top-0 h-fit bg-r">
-                    <img src="src/imgs/bg-r.png" alt="Imagem de fundo" width="459" height="505">
+                    <img src="src/imgs/lazyload.png" data-src="src/imgs/bg-r.png" alt="Imagem de fundo" width="459" height="515" class="lazyload">
                 </span>
             </div>
         </div>
@@ -131,7 +141,7 @@
                         <div class="my-2">
                             <img src="src/imgs/cases/artycs.jpg" alt="Projeto Artycs" title="Projeto Artycs" class="w-full rounded-md" width="655px" height="410px">
                             <div class="flex bg-[--secondary] md:hidden justify-between my-4 py-2 px-4 rounded-md">
-                                <h4 class="text-lg tracking-wider">Artycs</h4>
+                                <h4 class="text-lg tracking-wider">ARTYCS</h4>
                                 <div class="flex gap-2"> 
                                     <img src="src/imgs/wordpress.svg" alt="Plataforma Wordpress" title="Plataforma Wordpress" width="32" height="32" data-plataforma="wordpress">
                                     <a href="https://artycs.com.br/" target="_blank" rel="nofollow" alt="Clique para abrir o site em nova aba.">
@@ -234,48 +244,48 @@
             <div class="flex justify-between flex-wrap">
                 <div class="w-full md:w-[60%] mb-4 md:mb-0 rounded-xl bg-[#151527] px-4 md:px-6 py-6 md:py-8">
                     <h3 class="text-xl md:text-2xl mb-4 font-inconsolata font-medium tracking-widest flex items-center uppercase">
-                    <img src="/imgs/lazyload.png" data-src="src/imgs/dev.svg" alt="Competências relacionadas a programação" width="48" height="48" class="mr-2 lazyload"> programação</h3>
+                    <img src="src/imgs/lazyload.png" data-src="src/imgs/dev.svg" alt="Competências relacionadas a programação" width="48" height="48" class="mr-2 lazyload"> programação</h3>
                     <div class="flex flex-wrap gap-3 md:pl-11">
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/react.svg" alt="React" title="React" width="20" height="20" class="lazyload"> React.js
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/react.svg" alt="React" title="React" width="20" height="20" class="lazyload"> React.js
                         </span> 
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/preact.svg" alt="Preact" title="Preact" width="20" height="20" class="lazyload"> Preact
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/preact.svg" alt="Preact" title="Preact" width="20" height="20" class="lazyload"> Preact
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/typescript.svg" alt="Typescript" title="Typescript" width="20" height="20" class="lazyload">Typescript
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/typescript.svg" alt="Typescript" title="Typescript" width="20" height="20" class="lazyload">Typescript
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/javascript.svg" alt="Javascript" title="Javascript" width="20" height="20" class="lazyload">Javascript
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/javascript.svg" alt="Javascript" title="Javascript" width="20" height="20" class="lazyload">Javascript
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/jquery.svg" alt="Jquery" title="Jquery" width="20" height="20" class="lazyload">Jquery
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/jquery.svg" alt="Jquery" title="Jquery" width="20" height="20" class="lazyload">Jquery
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/php.svg" alt="PHP" title="PHP" width="20" height="20" class="lazyload">PHP
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/php.svg" alt="PHP" title="PHP" width="20" height="20" class="lazyload">PHP
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/nodejs.svg" alt="Node.js" title="Node.js" width="20" height="20" class="lazyload">Node.js
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/nodejs.svg" alt="Node.js" title="Node.js" width="20" height="20" class="lazyload">Node.js
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/sql.svg" alt="SQL" title="SQL" width="20" height="20" class="lazyload">SQL
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/sql.svg" alt="SQL" title="SQL" width="20" height="20" class="lazyload">SQL
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">Liquid</span> 
                         <span class="bg-[--secondary] block w-full h-[1px]"></span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/tailwind.svg" alt="Tailwind" title="Tailwind" width="20" height="20" class="lazyload"> Tailwind
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/tailwind.svg" alt="Tailwind" title="Tailwind" width="20" height="20" class="lazyload"> Tailwind
                         </span> 
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/css.svg" alt="Css" title="Css" width="20" height="20" class="lazyload"> Css
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/css.svg" alt="Css" title="Css" width="20" height="20" class="lazyload"> Css
                         </span>
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
-                            <img src="/imgs/lazyload.png" data-src="src/imgs/sass.svg" alt="Sass" title="Sass" width="20" height="20" class="lazyload"> Sass
+                            <img src="src/imgs/lazyload.png" data-src="src/imgs/sass.svg" alt="Sass" title="Sass" width="20" height="20" class="lazyload"> Sass
                         </span>
                     </div>
                 </div> 
                 <div class="w-full md:w-[37%] rounded-xl bg-[#151527] px-4 md:px-6 py-6 md:py-8">
                     <h3 class="text-xl md:text-2xl font-inconsolata font-medium tracking-widest flex items-center uppercase">
-                    <img src="/imgs/lazyload.png" data-src="src/imgs/design.svg" alt="Competências relacionadas a ferramentas de design" width="29" height="29" class="mr-4 lazyload"> Ferramentas de Design</h3> 
+                    <img src="src/imgs/lazyload.png" data-src="src/imgs/design.svg" alt="Competências relacionadas a ferramentas de design" width="29" height="29" class="mr-4 lazyload"> Ferramentas de Design</h3> 
                     <p class="text-xs pl-11 mb-6">Ferramentas de design para auxílio na programação de layouts.</p>
                     <div class="flex flex-wrap gap-3 md:pl-11">
                         <span class="flex items-center gap-2 py-2 px-4 bg-[--secondary] text-base font-inconsolata font-light rounded-full">
@@ -328,7 +338,7 @@
                 <div class="flex flex-wrap justify-center md:px-11 md:gap-12 tracking-wider">
                     <div class="text-center w-[46%] mb-6 md:mb-0 md:w-44 mr-[4%] md:mr-0">    
                         <div class="bg-white w-full h-24 px-4 rounded-md flex justify-center items-center">
-                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/wordpress-full.svg" alt="Plataforma Wordpress" title="Plataforma Wordpress" width="80">
+                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/wordpress-full.svg" alt="Plataforma Wordpress" title="Plataforma Wordpress" width="80" height="50">
                         </div>
                         <p class="mt-2 text-xs uppercase">+ de <b>20 temas</b> desenvolvidos</p>
                     </div>
@@ -337,7 +347,7 @@
                             <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/certificate-2.svg" alt="Certificação em Linx" title="Certificação em Linx" width="26" height="26"> 
                         </div>
                         <div class="bg-white w-full h-24 px-4 rounded-md flex justify-center items-center">
-                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/linx-commerce.png" alt="Plataforma Linx" title="Plataforma Linx" width="120">
+                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/linx-commerce.png" alt="Plataforma Linx" title="Plataforma Linx" width="120" height="56">
                         </div>
                         <p class="mt-2 text-xs uppercase">Com <b>1 certificado</b> de conhecimento</p>
                     </div>
@@ -346,7 +356,7 @@
                             <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/certificate-2.svg" alt="Certificação em Vtex" title="Certificação em Vtex" width="26" height="26">   
                         </div>
                         <div class="bg-white w-full h-24 px-4 rounded-md flex justify-center items-center">
-                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/vtex-full-logo.svg" alt="Plataforma Vtex" title="Plataforma Vtex" width="95">
+                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/vtex-full-logo.svg" alt="Plataforma Vtex" title="Plataforma Vtex" width="95" height="34">
                         </div>
                         <p class="mt-2 text-xs uppercase">Com <b>1 certificado</b> de conhecimento</p>
                     </div>
@@ -355,7 +365,7 @@
                             <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/certificate-2.svg" alt="Certificação em Wake" title="Certificação em Wake" width="26" height="26">
                         </div>
                         <div class="bg-white w-full h-24 px-4 rounded-md flex justify-center items-center">
-                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/wake.svg" alt="Plataforma Wake" title="Plataforma Wake" width="90">
+                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/wake.svg" alt="Plataforma Wake" title="Plataforma Wake" width="90" height="25">
                         </div>
                         <p class="mt-2 text-xs uppercase">Com <b>1 certificado</b> de conhecimento</p>
                     </div>
@@ -364,7 +374,7 @@
                             <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/certificate-2.svg" alt="Certificação em Deco.cx" title="Certificação em Deco.cx" width="26" height="26">
                         </div>
                         <div class="bg-white w-full h-24 px-4 rounded-md flex justify-center items-center">
-                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/deco.cx.svg" alt="Plataforma Deco.cx" title="Plataforma Deco.cx" width="90" height="13" >
+                            <img class="lazyload" src="src/imgs/lazyload.png" data-src="src/imgs/deco.cx.svg" alt="Plataforma Deco.cx" title="Plataforma Deco.cx" width="90" height="25" >
                         </div> 
                         <p class="mt-2 text-xs uppercase">Com <b>2 certificados</b> de conhecimento</p>
                     </div> 
@@ -375,7 +385,7 @@
 
         <div class="w-full flex justify-center py-8 px-6"> 
             <div class="flex items-center flex-wrap justify-center"> 
-                <img src="src/imgs/ana-caroline-lisboa-silva-desenvolvedora-web.png" alt="Ana Caroline Lisboa | Desenvolvedora Web" title="Ana Caroline Lisboa | Desenvolvedora Web" class="grayscale rounded-full w-32 h-32 object-cover mb-6 md:mb-0"> 
+                <img src="src/imgs/ana-caroline-lisboa-silva-desenvolvedora-web.jpg" alt="Ana Caroline Lisboa | Desenvolvedora Web" title="Ana Caroline Lisboa | Desenvolvedora Web" class="grayscale rounded-full w-32 h-32 object-cover mb-6 md:mb-0"> 
                 <div class="md:pl-8 md:ml-8 border-l border-[--main]">
                     <h3 class="text-center md:text-left text-base leading-5 font-medium mb-6 md:mb-3">Curtiu meu trabalho? Entre em contato ou me <br class="hidden md:block"> acompanhe pelas redes socias:</h3>
                     <div class="flex items-center flex-wrap flex-col md:flex-row gap-5 md:gap-8">
