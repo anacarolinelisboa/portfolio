@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
     $('#go-to-cases').on('click', function(event) {
         event.preventDefault();  
     
-        var blockCases = $('#block-cases');
+        var blockCases = $('#competencias');
         $('html, body').animate({
-            scrollTop: blockCases.offset().top
+            scrollTop: blockCases.offset().top - 100
         }, 1000); 
     });
 
